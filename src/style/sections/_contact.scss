@@ -9,7 +9,8 @@
   padding: 15rem 0 10rem 0;
   margin-top: -10rem;
   margin-bottom: -1px;
-  color: $white-color;
+  color: #272341;
+  
 
   @include respond(tab-land) {
     padding: 10rem 0;
@@ -18,13 +19,14 @@
     -webkit-clip-path: none;
   }
 
-  .contact-wrapper {
-    margin-top: 3.2rem;
-    padding: 0 2rem;
-    backface-visibility: hidden;
-
     &__text {
       margin-bottom: 2.5rem;
+      background: white;
+      width: 20em;
+      margin: 1em auto;
+      padding: 1em;
+      font-size: 1.5em;
+      box-shadow: 0 .5em 1em 0 $blue;
     }
 
     &__text,
@@ -36,5 +38,31 @@
         font-size: 2rem;
       }
     }
+    }
+    
+
+.test-form {
+  background: #fff;
+  width: 20em;
+  margin: 1em auto;
+  padding: 1em;
+  font-size: 1.5em;
+  box-shadow: 0 .5em 1em 0 $blue;
+  border-radius: 3px;
+}
+
+input[type=submit] {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  color: black;
+  border: 2px solid currentColor;
+  padding-left: 1em;
+  padding-right: 1em;
+  
+  &:hover {
+    background: rgba($blue, .25);
+    color: $white-color;
   }
 }
