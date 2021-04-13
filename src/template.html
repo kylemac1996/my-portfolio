@@ -8,7 +8,7 @@
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
     <!-- Put here your site title -->
-    <title>Kyle McCormick | Frontend Developer</title>
+    <title>Kyle McCormick | Developer</title>
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
     <meta name="keywords" content="[username], [name], skill" />
     <!-- Improve your SEO by adding a small descrption of you -->
@@ -68,7 +68,7 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-               I am a self taught developer with a degree in kinesiology. While 
+               I am a self-taught developer with a degree in kinesiology. While 
                I still enjoy this field I felt there was more out there to challenge
                me. Throughout the pandemic year I gained the necessary skillset required
                to pursue a career in web development. The challenges that programming 
@@ -100,16 +100,20 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Stock Seacrh</h3>
+                <h3 class="project-wrapper__text-title">Stock Search</h3>
                 <div>
                   <p class="mb-4">
-                    The app is programmed to to search any stock 
-                    data by searching its ticker symbol. Once searched the app will
+                    The app is programmed to search any stock 
+                    data by searching its ticker symbol. I used react to create
+                    this app because it offers the simplicity of HTML layout while 
+                    using javascript all in one language. Class components were used 
+                    along with react hooks to build the program. Once ticker is searched the app will
                     pull up a card that shows important data about that company:
-                    name, symbol, percent change (red if going down, green if rising),
+                    name, symbol, percent change (red=loss, green=gain),
                     year high and year low.
-                    To see project in action click download link, click download now.
-                    Once downloaded enter npm install to install dependencies, then run 
+                    To see project in action click download link (either fast or slow speed),
+                    click download now. Once downloaded enter npm install in your text editor
+                    to install dependencies, then run 
                     npm start to run application.
                   </p>
                 </div>
@@ -120,7 +124,6 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
                     <img class="img-fluid" src="./assets/stocklogo.png" />
                   </div>
@@ -138,25 +141,25 @@
                 <h3 class="project-wrapper__text-title">Robofriends</h3>
                 <div>
                   <p class="mb-4">
+                    The program was created using react.js. This helps with the 
+                    simplicity of putting all the files together. As opposed to 
+                    the stock search, I used functional components to create robofriends.
                     This app has a list of cards pulling from a set list of users.
                     Each card has a picture of a robot, a name, and email address.
                     There is a search bar at the top used to filter out the cards 
                     on the page. The webpage filters as you enter letters or erase
                     them. If you would like to scroll the page to see the users on it,
                     the search bar at the top is meant to scroll with the user.
-                    To see project in action click download link, click download now.
-                    Once downloaded enter npm install to install dependencies, then run 
-                    npm start to run application.
+                    To see project in action click see live.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="http://www.filefactory.com/file/5qtbhezgomzs/robofriends.zip">
-                  Download File
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://elegant-einstein-0edcc8.netlify.app">
+                  See Live
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
                     <img class="img-fluid" src="./assets/robofriendslogo.png" />
                   </div>
@@ -180,7 +183,7 @@
           <label for="email">Email Address</label> <br>
           <input type="email" id="email" /> <br>
           <label for="message">Message</label> <br>
-          <textarea name="message" id="message" cols="30" rows="7"></textarea> <br>
+          <textarea name="message" id="message" cols="30"></textarea> <br>
           <input type="submit" value="Send Message" /> 
         </form>
       </div>
